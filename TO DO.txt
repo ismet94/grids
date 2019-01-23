@@ -1,0 +1,11 @@
+******************************************************************
+no frame works
+
+only css grids
+
+create a masonry gallery (images of everyone)
+must be optomized must be perfect
+
+
+********************************************************************
+
