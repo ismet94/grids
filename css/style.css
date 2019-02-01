@@ -3,14 +3,21 @@ html {
 }
 
 body {
-    padding: 10px;
+    margin: 10px;
 }
 
 .container {
     display: grid;
-    grid-gap: 20px;
+    grid-gap: 10px;
     grid-template-columns: repeat(4,1fr);
-    grid-auto-rows: repeat(6,1fr);
+    grid-template-rows: repeat(6,300px);
+    
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 
@@ -21,116 +28,26 @@ body {
 }
 
 .bath {
-    background-image: url(../images/bath.jpg);
-    grid-column: span 1;
-    grid-row: span 15;
-}
-
-.ebi {
-    background-image: url(../images/ebi.jpg);
     grid-column: span 2;
-    grid-row: span 15;
+    grid-row: span 1;
 }
 
 .fatima {
-    background-image: url(../images/fatima.jpg);
     grid-column: span 1;
-    grid-row: span 25;
-} 
-
-.group {
-    background-image: url(../images/group.jpg);
-    grid-column: span 2;
-    grid-row: span 20;
-}
-
-.justin {
-    background-image: url(../images/justin.jpg);
-    grid-column: span 2;
-    grid-row: span 20;
-}
-
-.imie {
-    background-image: url(../images/imie.jpg);
-    grid-column: span 0;
-    grid-row: span 20;
+    grid-row: span 2;
 }
 
 .izzi {
-    background-image: url(../images/izzi.jpg);
     grid-column: span 1;
-    grid-row: span 30;
-}
-
-.keanan {
-    background-image: url(../images/keanan.jpg);
-    grid-column: span 1;
-    grid-row: span 20;
-}
-
-.liam {
-    background-image: url(../images/liam.jpg);
-    grid-column: span 2;
-    grid-row: span 20;
-}
-
-.marco {
-    background-image: url(../images/marco.jpg);
-    grid-column: span 1;
-    grid-row: span 40;
-}
-
-.naasik {
-    background-image: url(../images/naasik.jpg);
-    grid-column: span 1;
-    grid-row: span 20;
-}
-
-.nash {
-    background-image: url(../images/nash.jpg);
-    grid-column: span 1;
-    grid-row: span 20;
+    grid-row: span 2;
 }
 
 .nate {
-    background-image: url(../images/nate.jpg);
     grid-column: span 1;
-    grid-row: span 30;
+    grid-row: span 2;
 }
 
-.raazik {
-    background-image: url(../images/raazik.jpg);
+.naasik {
     grid-column: span 1;
-    grid-row: span 20;
+    grid-row: span 2;
 }
-
-.shell {
-    background-image: url(../images/shell.jpg);
-    grid-column: span 1;
-    grid-row: span 30;
-}
-
-.toyer {
-    background-image: url(../images/toyer.jpg);
-    grid-column: span 1;
-    grid-row: span 30;
-}
-
-.tubz {
-    background-image: url(../images/tubz.jpg);
-    grid-column: span 1;
-    grid-row: span 20;
-}
-
-.taylor {
-    background-image: url(../images/taylor.jpg);
-    grid-column: span 1;
-    grid-row: span 15;
-}
-
-.west {
-    background-image: url(../images/west.jpg);
-    grid-column: span 1;
-    grid-row: span 15;
-}
-
